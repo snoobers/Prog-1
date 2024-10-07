@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
+  <diagram name="Page-1" id="YCBen0mi4yipPIK2qHk5">
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-3" value="Valuta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-5" value="- kurs: double" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="145" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-11" value="&amp;nbsp;+ Valuta: kurs double" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-12" value="+ getKurs(): double&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-13" value="+ nokTilKurs(nok: double, kurs: double): double" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-14" value="+ kursTilNok(nok: double, kurs: double): double&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-16" value="+ main(args: String[]): void&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="390" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-28" value="Terningspill" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kMubSyRO_u5HSEQt0AUy-29" target="kMubSyRO_u5HSEQt0AUy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-30" value="- sumPoeng: int" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="595" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="690" width="470" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-32" value="+ Terningspill(sumPoeng: int)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="700" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-33" value="+ Terningspill(terning: Random)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="750" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-34" value="+ getSumPoeng()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="790" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-35" value="+ getSumPoeng(terningkast: int, sumPoeng, int)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="830" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-36" value="+ main(args: String[]): void&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1010" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-37" value="- terning: new random" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-39" value="+ kastTerning()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="880" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-40" value="+ erFerdig()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kMubSyRO_u5HSEQt0AUy-41" value="+ minusTerning(terningKast: int, sumPoeng: int)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="970" width="315" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
