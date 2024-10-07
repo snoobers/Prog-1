@@ -1,5 +1,6 @@
-import java.time.LocalTime;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.Period;
 
 public class ArbTaker {
     
@@ -7,11 +8,11 @@ public class ArbTaker {
     Person personnel;
     private int employeeID;
     private int monthSalary;
-    private LocalTime yearOfEmployment;
+    private LocalDate yearOfEmployment;
     private double taxPercent;
 
     // Constructor
-    public ArbTaker(int employeeID, int monthSalary, LocalTime yearOfEmployment, double taxPercent){
+    public ArbTaker(int employeeID, int monthSalary, LocalDate yearOfEmployment, double taxPercent){
         this.employeeID = employeeID;
         this.monthSalary = monthSalary;
         this.yearOfEmployment = yearOfEmployment;
@@ -27,7 +28,7 @@ public class ArbTaker {
         return monthSalary;
     }
 
-    public LocalTime getYearOfEmployment(){
+    public LocalDate getYearOfEmployment(){
         return yearOfEmployment;
     }
 
@@ -66,6 +67,33 @@ public class ArbTaker {
     // Method to print name in format "Surname, Firstname"
     public void formattedName(){
         System.out.println(personnel.getSurname() + ", " + personnel.getFirstname());
+    }
+
+    // Method to find the age of the employee
+    public void findAge(){
+        LocalDate currentDate = LocalDate.now();
+        Period period = Period.between(personnel.getBirthday(), currentDate);
+        System.out.println(personnel.getFirstname() + " is " + period.getYears() + " years old.");
+    }
+
+    // Method that finds the length of employment
+    public void yearsEmployed(){
+        LocalDate currentDate = LocalDate.now();
+        Period period = Period.between(yearOfEmployment, currentDate);
+        System.out.println(personnel.getFirstname() + " has been employed in the company for " + period.getYears() + " years.");
+    }
+
+    // Method to find out if employee has been employed more than a set time
+    public void employedMoreThan(int years){
+        LocalDate today = LocalDate.now();
+        int differenceYears = (today.getYear() - yearOfEmployment.getYear()) - years;
+
+        // If sentence to check if the difference is positive or negative
+        if (differenceYears > 0){
+            System.out.println("Yes, " + personnel.getFirstname() + " has been employed for more than " + years + " years.");
+        } else {
+            System.out.println("No, " + personnel.getFirstname() + " has not been employed for more than " + years + " years.");
+        }
     }
 
 }
