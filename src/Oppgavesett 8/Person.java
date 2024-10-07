@@ -1,14 +1,14 @@
-import java.time.LocalTime;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Person {
 
     final String firstname;
     final String surname;
-    final LocalTime birthday;
+    final LocalDate birthday;
 
     //Constructor to make the person
-    public Person(String firstname, String surname, LocalTime birthday){
+    public Person(String firstname, String surname, LocalDate birthday){
         this.firstname = firstname;
         this.surname = surname;
         this.birthday = birthday;
@@ -23,7 +23,7 @@ public class Person {
         return surname;
     }
 
-    public LocalTime getBirthday(){
+    public LocalDate getBirthday(){
         return birthday;
     }
 
