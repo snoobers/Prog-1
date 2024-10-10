@@ -3,9 +3,9 @@ import java.time.format.DateTimeFormatter;
 
 public class Person {
 
-    final String firstname;
-    final String surname;
-    final LocalDate birthday;
+    final private String firstname;
+    final private String surname;
+    final private LocalDate birthday;
 
     //Constructor to make the person
     public Person(String firstname, String surname, LocalDate birthday){

@@ -1,5 +1,4 @@
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.time.Period;
 
 public class ArbTaker {
@@ -12,7 +11,8 @@ public class ArbTaker {
     private double taxPercent;
 
     // Constructor
-    public ArbTaker(int employeeID, int monthSalary, LocalDate yearOfEmployment, double taxPercent){
+    public ArbTaker(Person personnel, int employeeID, int monthSalary, LocalDate yearOfEmployment, double taxPercent){
+        this.personnel = personnel;
         this.employeeID = employeeID;
         this.monthSalary = monthSalary;
         this.yearOfEmployment = yearOfEmployment;
@@ -36,7 +36,6 @@ public class ArbTaker {
         return taxPercent;
     }
 
-    // Setters for tax percentage and monthly salary
     public void setTaxPercent(double newTax){
         this.taxPercent = newTax;
     }
