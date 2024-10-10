@@ -52,7 +52,7 @@ public class NyString {
 
 
     public static void main(String[] args) {
-        NyString teksten = new NyString("Hei, jeg heter Edvard og jeg synes det er morsomt med programmering. Det er fortsatt vanskelig, men øvelse gjør mester!");
+        NyString teksten = new NyString("Bro hva er dette for en tekst? Det. var en ganske rar tekst, men det får så være.");
 
         //teksten.forkortelse();
 

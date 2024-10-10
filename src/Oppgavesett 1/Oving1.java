@@ -4,6 +4,7 @@
 import java.util.Formatter;
 public class Oving1 {
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         double inch = 80.0; //Define inch for conversion to cm
         double cm = 44.0; //Define cm for conversion to inch

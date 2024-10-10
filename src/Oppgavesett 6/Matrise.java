@@ -81,7 +81,7 @@ public class Matrise {
             for (int j = 0; j < arr[i].length; j++) {
                 sb.append(arr[i][j]).append(" ");
             }
-            sb.append("\n");  // Ny linje etter hver rad
+            sb.append("\n");
         }
         return sb.toString();
     }

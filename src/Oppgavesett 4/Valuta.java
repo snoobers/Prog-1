@@ -24,6 +24,7 @@ public class Valuta {
         return  kurs * nok;
     }
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //Oppretter  en scanner for å lese inn verdier fra brukeren
 

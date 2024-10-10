@@ -20,7 +20,7 @@ public class RandomTabell {
 
             antall[tilfeldigTall] ++;
                   
-            teller ++; //Legger til 1 til telleren for hver gang
+            teller ++;
         }
         System.out.println(Arrays.toString(antall));
         
