@@ -56,7 +56,7 @@ public class ArrangementClient {
 
                 case 3: // Find arrangement on given date
                     System.out.println("Enter date (as an integer, e.g., 20231021):");
-                    int date = scanner.nextInt();
+                    long date = scanner.nextLong();
                     arrangementRegister.findArrangementAtDate(date);
                     break;
 

@@ -21,18 +21,14 @@ public class ArrangementRegister {
         for (Arrangement arrangement : arrangementOverview){
             if (arrangement.getPlace().toLowerCase().equals(place.toLowerCase())){
                 System.out.println(arrangement + " is being held at the " + place);
-            } else {
-                System.out.println("There are no arrangements being held at the " + place);
             }
         }
     }
 
-    public void findArrangementAtDate(int date){
+    public void findArrangementAtDate(long date){
         for (Arrangement arrangement : arrangementOverview){
             if (arrangement.getTime() - date < 2400){
                 System.out.println(arrangement + " is being held this day.");
-            } else {
-                System.out.println("No arrangements are being held this date.");
             }
         }
     }
@@ -47,6 +43,7 @@ public class ArrangementRegister {
             }
         }
         Collections.sort(arrangementsInInterval);
+        System.out.println(arrangementsInInterval.toString());
     }
 
     public void listOfArrangements(){

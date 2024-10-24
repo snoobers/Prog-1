@@ -32,6 +32,7 @@ public class MainTaskManager {
                     break;
                 case 2:
                     System.out.println("Number of students: " + taskManager.findNumberOfStudents());
+                    break;
                 case 3:
                     scanner.nextLine();
                     System.out.println("Enter name of student you would like to register:");
@@ -39,16 +40,21 @@ public class MainTaskManager {
                     System.out.println("How many tasks to increase by?");
                     int tasks = scanner.nextInt();
                     taskManager.increaseTaskAmount(name, tasks);
+                    break;
                 case 4:
                     scanner.nextLine();
                     System.out.println("Enter name of student you would like to register:");
                     name = scanner.nextLine();
-                    taskManager.findAmountOfTasks(name);
+                    System.out.println(taskManager.findAmountOfTasks(name));
+                    break;
                 case 5:
-                    taskManager.toString();
+                    System.out.println(taskManager.toString());
+                    break;
                 case 6:
                     System.out.println("Have a nice day!");
                     running = false;
+
+                    break;
                 default:
                     break;
             }

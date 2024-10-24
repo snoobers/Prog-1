@@ -36,7 +36,9 @@ public class TaskManager {
 
     public int findAmountOfTasks(String name){
         int tasksCompleted = 0;
-        for (int i = 0; i < students.length; i ++){
+
+        
+        for (int i = 0; i < numberOfStudents; i ++){
             if (students[i].getName().toLowerCase().equals(name.toLowerCase())){
                 tasksCompleted = students[i].getNumberOfTasks();
             } else {

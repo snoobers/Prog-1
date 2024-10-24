@@ -14,9 +14,7 @@ public class MenuRegister {
             if (menu.getMenuName().toLowerCase().equals(Menu.toLowerCase())){
                 menu.addDish(dish);
                 System.out.println(dish.getName() + " was added to the menu: " + menu.getMenuName());
-            } else {
-                System.out.println("Failed to add to the menu!");
-            }
+            } 
         }
     }
 
@@ -24,8 +22,6 @@ public class MenuRegister {
         for (Menu menu : menuRegister){
             if (menu.containsDish(dishName)){
                 System.out.println(menu.getMenuName() + " contains " + dishName);
-            } else {
-                System.out.println("The dish was not found in any menu.");
             }
         }
     }
